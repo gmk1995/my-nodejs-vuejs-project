@@ -1,0 +1,43 @@
+Step 1: Install Node.js
+-----------------------
+
+Before creating a new Vue.js app you need to install Node.js on your system
+
+You can download the latest version of Node.js from the offical website at :
+https://nodejs.org/en/
+
+follow the below link to install Node.js
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
+
+Step 2: Install Vue CLI
+------------------------
+
+Vue CLI is a command line interface tool that makes it easy to create and manage Vue.js projects.
+
+You can install Vue CLI globally by running the command in your terminal :
+
+npm install -g @vue/cli
+
+
+Step 3: Create a new Project:
+------------------------------
+
+Once Vue CLI is installed, you can use it to create a new Vue.js Project
+
+To create a new project, run the following command in your terminal:
+
+vue create my-project
+
+Replace "my-project" with the name of your project. This command will create a new Vue.js project in a directory called "my-project".
+
+Step 4: Run the Development Server:
+-----------------------------------
+
+You can start the development server by running thr following command:
+
+cd my-project
+
+npm run serve
+
+This will start a development server on http://localhost:8080/, and you can see your new Vue.js app in action bu opening a web browser and visting that URL.
+
